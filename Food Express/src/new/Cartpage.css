@@ -1,0 +1,153 @@
+/* Main container */
+.cart-container {
+  padding: 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Heading */
+.cart-title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 30px;
+  color: #222;
+}
+
+/* Empty cart */
+.empty-cart {
+  text-align: center;
+  font-size: 20px;
+  color: #777;
+  margin-top: 50px;
+}
+
+/* Table wrapper */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* Cart table */
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+/* Table header */
+.cart-table th {
+  padding: 15px 12px;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  background-color: #f8f8f8;
+  color: #333;
+  font-size: 16px;
+}
+
+/* Table cells */
+.cart-table td {
+  padding: 15px 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  vertical-align: middle;
+}
+
+/* Table row hover */
+.cart-table tbody tr:hover {
+  background-color: #fafafa;
+}
+
+/* Product image */
+.cart-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Product name */
+.product-name {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Quantity container */
+.quantity-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* + and - buttons */
+.quantity-btn {
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff6b00;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.quantity-btn:hover {
+  background-color: #e65c00;
+}
+
+/* Quantity number */
+.quantity {
+  font-size: 16px;
+  font-weight: 600;
+  min-width: 20px;
+}
+
+/* Remove button */
+.remove-btn {
+  border: none;
+  background-color: #ffe5e5;
+  color: #d60000;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.remove-btn:hover {
+  background-color: #ffcccc;
+}
+
+/* Total section */
+.cart-total {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.cart-total h3 {
+  padding: 15px 25px;
+  background-color: #ff6b00;
+  color: white;
+  border-radius: 8px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .cart-container {
+    padding: 15px;
+  }
+
+  .cart-title {
+    font-size: 24px;
+  }
+
+  .cart-table {
+    min-width: 900px;
+  }
+
+  .table-wrapper {
+    overflow-x: auto;
+  }
+}
