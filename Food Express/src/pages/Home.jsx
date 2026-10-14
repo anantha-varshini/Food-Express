@@ -1,6 +1,14 @@
 import Navbar from "./Navbar";
 import "./Pages.css";
 import homehero from "../assets/homehero.jpg"
+import cheesepizza from "../assets/cheesepizza.jpg"
+import chickenburger from "../assets/chickenburger.jpg"
+import chickenbiriyani from "../assets/chickenbiriyani.jpg"
+import chocolatecake from "../assets/chocolatecake.jpg"
+import spicekitchen from "../assets/spicekitchen.jpg"
+import pizzahouse from "../assets/pizzahouse.jpg"
+import burgerhouse from "../assets/burgerhouse.jpg"
+import sweettreats from "../assets/sweettreats.jpg"
 
 function Home() {
   return (
@@ -67,7 +75,7 @@ function Home() {
 
           <div className="hero-circle"></div>
 
-          <img src="/src/assets/homehero.jpg"alt="Delicious Food"className="hero-image" />
+          <img src={homehero} alt="Delicious Food"className="hero-image" />
 
           <div className="rating-card">
             <span className="rating-star">⭐</span>
@@ -177,7 +185,7 @@ function Home() {
 
     <div className="food-card">
       <div className="food-image">
-        <img src="/src/assets/cheesepizza.jpg" alt="Cheese Pizza" />
+        <img src={cheesepizza} alt="Cheese Pizza" />
         <span className="food-badge">Popular</span>
       </div>
 
@@ -199,7 +207,7 @@ function Home() {
 
     <div className="food-card">
       <div className="food-image">
-        <img src="/src/assets/chickenburger.jpg" alt="Chicken Burger" />
+        <img src={chickenburger} alt="Chicken Burger" />
         <span className="food-badge">Best Seller</span>
       </div>
 
@@ -221,7 +229,7 @@ function Home() {
 
     <div className="food-card">
       <div className="food-image">
-        <img src="/src/assets/chickenbiriyani.jpg" alt="Chicken Biryani" />
+        <img src={chickenbiriyani} alt="Chicken Biryani" />
         <span className="food-badge">Hot</span>
       </div>
 
@@ -243,7 +251,7 @@ function Home() {
 
     <div className="food-card">
       <div className="food-image">
-        <img src="/src/assets/chocolatecake.jpg" alt="Chocolate Cake" />
+        <img src={chocolatecake} alt="Chocolate Cake" />
         <span className="food-badge">New</span>
       </div>
 
@@ -283,7 +291,7 @@ function Home() {
   <div className="restaurant-container">
 
     <div className="restaurant-card">
-      <img src="/src/assets/spicekitchen.jpg" alt="Spice Kitchen" />
+      <img src={spicekitchen} alt="Spice Kitchen" />
 
       <div className="restaurant-content">
         <h3>Spice Kitchen</h3>
@@ -300,7 +308,7 @@ function Home() {
 
 
     <div className="restaurant-card">
-      <img src="/src/assets/pizzahouse.jpg" alt="Pizza Palace" />
+      <img src={pizzahouse} alt="Pizza Palace" />
 
       <div className="restaurant-content">
         <h3>Pizza House</h3>
@@ -317,7 +325,7 @@ function Home() {
 
 
     <div className="restaurant-card">
-      <img src="/src/assets/burgerhouse.jpg" alt="Burger House" />
+      <img src={burgerhouse} alt="Burger House" />
 
       <div className="restaurant-content">
         <h3>Burger House</h3>
@@ -334,7 +342,7 @@ function Home() {
 
 
     <div className="restaurant-card">
-      <img src="/src/assets/sweettreats.jpg" alt="Sweet Treats" />
+      <img src={sweettreats} alt="Sweet Treats" />
 
       <div className="restaurant-content">
         <h3>Sweet Treats</h3>

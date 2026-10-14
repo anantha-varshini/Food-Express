@@ -46,7 +46,7 @@ function Menu() {
       price: 280,
       rating: 4.9,
       time: "30 min",
-      image: "/src/assets/chickenpizza.jpg",
+      image: chickenpizza,
     },
     {
       id: 2,
@@ -55,7 +55,7 @@ function Menu() {
       price: 240,
       rating: 4.6,
       time: "25 min",
-      image: "/src/assets/margheritapizza.jpg",
+      image: margheritapizza,
     },
     {
       id: 3,
@@ -64,7 +64,7 @@ function Menu() {
       price: 320,
       rating: 4.8,
       time: "30 min",
-      image: "/src/assets/cheesepizza.jpg",
+      image: cheesepizza,
     },
     {
       id: 4,
@@ -73,7 +73,7 @@ function Menu() {
       price: 260,
       rating: 4.7,
       time: "25 min",
-      image: "/src/assets/panneerpizza.jpg",
+      image: panneerpizza,
     },
 
     // BURGER
@@ -84,7 +84,7 @@ function Menu() {
       price: 160,
       rating: 4.7,
       time: "20 min",
-      image: "/src/assets/chickenburger.jpg",
+      image: chickenburger,
     },
     {
       id: 6,
@@ -93,7 +93,7 @@ function Menu() {
       price: 180,
       rating: 4.7,
       time: "20 min",
-      image: "/src/assets/cheeseburger.jpg",
+      image: cheeseburger,
     },
     {
       id: 7,
@@ -102,7 +102,7 @@ function Menu() {
       price: 190,
       rating: 4.8,
       time: "20 min",
-      image: "/src/assets/crispyburger.jpg",
+      image: crispyburger,
     },
     {
       id: 8,
@@ -111,7 +111,7 @@ function Menu() {
       price: 130,
       rating: 4.5,
       time: "15 min",
-      image: "/src/assets/vegburger.jpg",
+      image: vegburger,
     },
 
     // RICE
@@ -122,7 +122,7 @@ function Menu() {
       price: 220,
       rating: 4.8,
       time: "25 min",
-      image: "/src/assets/chickenbiriyani.jpg",
+      image: chickenbiriyani,
     },
     {
       id: 10,
@@ -131,7 +131,7 @@ function Menu() {
       price: 320,
       rating: 4.9,
       time: "35 min",
-      image: "/src/assets/muttonbiriyani.jpg",
+      image: muttonbiriyani,
     },
     {
       id: 11,
@@ -140,7 +140,7 @@ function Menu() {
       price: 140,
       rating: 4.5,
       time: "20 min",
-      image: "/src/assets/vegrice.jpg",
+      image: vegrice,
     },
     {
       id: 12,
@@ -149,7 +149,7 @@ function Menu() {
       price: 160,
       rating: 4.6,
       time: "20 min",
-      image: "/src/assets/eggrice.jpg",
+      image: eggrice,
     },
 
     // NON VEG
@@ -160,7 +160,7 @@ function Menu() {
       price: 260,
       rating: 4.8,
       time: "30 min",
-      image: "/src/assets/grilledchicken.jpg",
+      image:grilledchicken,
     },
     {
       id: 14,
@@ -169,7 +169,7 @@ function Menu() {
       price: 280,
       rating: 4.8,
       time: "30 min",
-      image: "/src/assets/chickentikka.jpg",
+      image: chickentikka,
     },
     {
       id: 15,
@@ -178,7 +178,7 @@ function Menu() {
       price: 220,
       rating: 4.7,
       time: "25 min",
-      image: "/src/assets/chickenwings.jpg",
+      image: chickenwings,
     },
     {
       id: 16,
@@ -187,7 +187,7 @@ function Menu() {
       price: 240,
       rating: 4.8,
       time: "25 min",
-      image: "/src/assets/chicken65.jpg",
+      image: chicken65,
     },
 
     // DESSERTS
@@ -198,7 +198,7 @@ function Menu() {
       price: 430,
       rating: 4.6,
       time: "15 min",
-      image: "/src/assets/chocolatecake.jpg",
+      image: chocolatecake,
     },
     {
       id: 18,
@@ -207,7 +207,7 @@ function Menu() {
       price: 100,
       rating: 4.7,
       time: "10 min",
-      image: "/src/assets/brownie.jpg",
+      image: brownie,
     },
     {
       id: 19,
@@ -216,7 +216,7 @@ function Menu() {
       price: 90,
       rating: 4.5,
       time: "10 min",
-      image: "/src/assets/vannila.jpg",
+      image: vannila,
     },
     {
       id: 20,
@@ -225,7 +225,7 @@ function Menu() {
       price: 80,
       rating: 4.8,
       time: "10 min",
-      image: "/src/assets/gulabjamun.jpg",
+      image: gulabjamun,
     },
 
     // DRINKS
@@ -236,7 +236,7 @@ function Menu() {
       price: 110,
       rating: 4.9,
       time: "15 min",
-      image: "/src/assets/strawberry.jpg",
+      image: strawberry,
     },
     {
       id: 22,
@@ -245,7 +245,7 @@ function Menu() {
       price: 169,
       rating: 4.3,
       time: "13 min",
-      image: "/src/assets/mint.jpg",
+      image: mint,
     },
     {
       id: 23,
@@ -254,7 +254,7 @@ function Menu() {
       price: 129,
       rating: 4.6,
       time: "16 min",
-      image: "/src/assets/tender.jpg",
+      image: tender,
     },
     {
       id: 24,
@@ -263,7 +263,7 @@ function Menu() {
       price: 40,
       rating: 4.9,
       time: "20 min",
-      image: "/src/assets/watermelon.jpg",
+      image: watermelon,
     },
   ];
 

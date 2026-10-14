@@ -7,6 +7,7 @@ import chickenburger from '../assets/chickenburger.jpg'
 import chocolatecake from '../assets/chocolatecake.jpg'
 import cheeseburger from '../assets/cheeseburger.jpg'
 import menu4 from '../assets/menu4.jpg'
+import mint from '../assets/mint.jpg'
 import sdessert from '../assets/sdessert.jpg'
 import vegrice from '../assets/vegrice.jpg'
 import chickenpizza from '../assets/chickenpizza.jpg'
@@ -22,7 +23,7 @@ function Recommended() {
       price: 220,
       rating: 4.9,
       time: "25 min",
-      image: "/src/assets/chickenbiriyani.jpg",
+      image: chickenbiriyani,
       badge: "Best Seller",
       description: "Aromatic basmati rice with tender chicken and rich spices.",
     },
@@ -33,7 +34,7 @@ function Recommended() {
       price: 180,
       rating: 4.8,
       time: "20 min",
-      image: "/src/assets/chickenburger.jpg",
+      image: chickenburger,
       badge: "Popular",
       description: "Crispy chicken, fresh vegetables and creamy sauce.",
     },
@@ -44,7 +45,7 @@ function Recommended() {
       price: 299,
       rating: 4.9,
       time: "30 min",
-      image: "/src/assets/chickenpizza.jpg",
+      image: chickenpizza,
       badge: "Top Pick",
       description: "Loaded pizza topped with chicken, cheese and herbs.",
     },
@@ -55,7 +56,7 @@ function Recommended() {
       price: 260,
       rating: 4.7,
       time: "30 min",
-      image: "/src/assets/menu4.jpg",
+      image: menu4,
       badge: "Chef's Choice",
       description: "Juicy grilled chicken seasoned with delicious herbs.",
     },
@@ -66,7 +67,7 @@ function Recommended() {
       price: 169,
       rating: 4.6,
       time: "10 min",
-      image: "/src/assets/mint.jpg",
+      image: mint,
       badge: "Healthy",
       description: "Fresh refreshment with mint and lemon flavour.",
     },
@@ -77,7 +78,7 @@ function Recommended() {
       price: 190,
       rating: 4.8,
       time: "20 min",
-      image: "/src/assets/cheeseburger.jpg",
+      image: cheeseburger,
       badge: "Trending",
       description: "Juicy burger with melted cheese and fresh toppings.",
     },
@@ -88,7 +89,7 @@ function Recommended() {
       price: 430,
       rating: 4.7,
       time: "15 min",
-      image: "/src/assets/chocolatecake.jpg",
+      image: chocolatecake,
       badge: "Sweet Pick",
       description: "Rich chocolate cake made for every sweet craving.",
     },
@@ -99,7 +100,7 @@ function Recommended() {
       price: 150,
       rating: 4.6,
       time: "15 min",
-      image: "/src/assets/sdessert.jpg",
+      image: sdessert,
       badge: "New",
       description: "Creamy strawberry dessert with a fresh fruity flavour.",
     },
