@@ -10,7 +10,7 @@ import {
 import "./Cartpage.css";
 
 const API_URL = import.meta.env.VITE_API_URL||
-"https://localhost:5000/api/cart/sync";
+"https://food-express-backend-y3zg.onrender.com/api/cart/sync";
 
 const getCartId = () => {
   let id = localStorage.getItem("foodExpressCartId");

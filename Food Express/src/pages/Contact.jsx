@@ -33,7 +33,7 @@ function Contact() {
     try {
       const response = await fetch(
         import.meta.env.VITE_API_URL||
-        "https://localhost:5000/api/contact",
+        "https://food-express-backend-y3zg.onrender.com/api/contact",
         {
           method: "POST",
           headers: {
